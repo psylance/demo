@@ -4,7 +4,7 @@ from flask import Flask
 import MySQLdb
 
 app = Flask(__name__)
-db=MySQLdb.connect('139.180.137.65', 'user', 'pass', 'k3s')
+db=MySQLdb.connect('45.77.34.140', 'user', 'pass', 'k3s')
 
 
 @app.route('/')
